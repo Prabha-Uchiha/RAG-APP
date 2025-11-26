@@ -47,7 +47,7 @@ class RAGSystem:
         self.documents = []
         
     @st.cache_resource
-    def initialize_models(self):
+    def initialize_models(_self):
         """Initialize embedding model and reader LLM"""
         try:
             # Initialize embedding model - Updated to use langchain_huggingface import
